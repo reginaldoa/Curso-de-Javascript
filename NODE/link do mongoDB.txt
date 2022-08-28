@@ -1,0 +1,5 @@
+mongodb+srv://reginaldo_dev:palmeiras2022@cursojs1.jb0xp.mongodb.net/?retryWrites=true&w=majority
+
+
+URL DO PRIMEIRO PROJETO
+mongodb+srv://reginaldo:palmeiras2022@cluster0.khpjg.mongodb.net/?retryWrites=true&w=majority

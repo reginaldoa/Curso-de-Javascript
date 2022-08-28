@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testes</title>
+</head>
+<body>
+
+</body>
+
+
+<script>
+    const num= window.prompt("digite um numero:")
+
+   document.body.innerHTML=`<h1>Seu número é ${num}</h1>`
+   document.body.innerHTML+= `<p>a raiz quadrada é ${Math.sqrt(num)}</p>`
+   document.body.innerHTML+=`<p>${num} é inteiro: ${Number.isInteger(num)}</p>`
+
+   document.body.innerHTML+=`<p>${num} é nam: ${Number.isNaN(num)}</p>`
+
+
+   document.body.innerHTML+=`<p>arredondando para cima ${Math.ceil(num)}</p>`    
+
+
+   document.body.innerHTML+=`<p>arredondando para baixo ${Math.floor(num)}</p>`
+
+   document.body.innerHTML+=`<p>Com duas casas decimais : ${num.toFixed(2)}</p>`
+
+       
+   </script>
+</html>
